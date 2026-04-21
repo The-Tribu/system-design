@@ -7,7 +7,7 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy": "pnpm build-storybook && gh-pages -d storybook-static"
+    "deploy": "pnpm build-storybook && gh-pages -d storybook-static --nojekyll"
   },
   "dependencies": {
     "react": "^18.3.1",
