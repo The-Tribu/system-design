@@ -16,7 +16,7 @@ export default create({
   appBorderColor: '#2a2a4a',
   appBorderRadius: 12,
 
-  fontBase: "'SF Pro Text', 'Inter', system-ui, sans-serif",
+  fontBase: "'Inter', system-ui, sans-serif",
   fontCode: "'SF Mono', 'Fira Code', monospace",
 
   textColor: '#e8e4ff',

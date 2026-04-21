@@ -39,7 +39,7 @@ export function Input({ label, placeholder, value, hint, errorMessage, state = '
   return (
     <div style={{ marginBottom: '14px' }}>
       {label && (
-        <label style={{ fontSize: '12px', color: 'var(--color-text-secondary)', marginBottom: '6px', fontWeight: 500, display: 'block' }}>
+        <label style={{ fontSize: '12px', color: 'var(--color-text-secondary)', marginBottom: '6px', fontWeight: 500, display: 'block', fontFamily: 'var(--font-body)' }}>
           {label}
         </label>
       )}
@@ -58,12 +58,12 @@ export function Input({ label, placeholder, value, hint, errorMessage, state = '
         onBlur={() => setFocused(false)}
       />
       {hint && state !== 'error' && (
-        <div style={{ fontSize: '11px', color: effectiveState === 'focused' ? '#d966f0' : 'var(--color-text-tertiary)', marginTop: '5px' }}>
+        <div style={{ fontSize: '11px', color: effectiveState === 'focused' ? '#d966f0' : 'var(--color-text-tertiary)', marginTop: '5px', fontFamily: 'var(--font-body)' }}>
           {hint}
         </div>
       )}
       {errorMessage && state === 'error' && (
-        <div style={{ fontSize: '11px', color: 'var(--color-error)', marginTop: '5px' }}>
+        <div style={{ fontSize: '11px', color: 'var(--color-error)', marginTop: '5px', fontFamily: 'var(--font-body)' }}>
           {errorMessage}
         </div>
       )}
