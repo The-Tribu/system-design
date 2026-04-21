@@ -24,6 +24,7 @@ export function Badge({ children, variant = 'purple' }: BadgeProps) {
       borderRadius: 'var(--radius-pill)',
       fontSize: '11px',
       fontWeight: 600,
+      fontFamily: 'var(--font-body)',
       ...variantStyles[variant],
     }}>
       {children}

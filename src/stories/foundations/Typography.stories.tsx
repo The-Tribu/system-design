@@ -27,13 +27,13 @@ function TypographyDoc() {
   return (
     <div style={s.page}>
       <div style={s.heading}>Typography</div>
-      <div style={s.desc}>SF Pro Rounded as the display face for that warm, rounded feel characteristic of The Tribu.</div>
+      <div style={s.desc}>Satoshi as the display face for headings and titles. Inter for body text and UI elements.</div>
 
       <div style={s.label}>Font families</div>
       <table style={s.table}>
         <tbody>
-          <Row token="--font-display" value="'SF Pro Rounded', 'Nunito', system-ui" />
-          <Row token="--font-body" value="'SF Pro Text', 'Inter', system-ui" />
+          <Row token="--font-display" value="'Satoshi', system-ui" />
+          <Row token="--font-body" value="'Inter', system-ui" />
           <Row token="--font-mono" value="'SF Mono', 'Fira Code', monospace" />
         </tbody>
       </table>
