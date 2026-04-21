@@ -13,6 +13,10 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
+  viteFinal: async (config) => ({
+    ...config,
+    base: '/',
+  }),
 };
 
 export default config;
