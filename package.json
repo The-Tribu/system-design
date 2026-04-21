@@ -2,7 +2,7 @@
   "name": "the-tribu-design-system",
   "version": "1.0.0",
   "description": "The Tribu — Design System. Source of truth for brand, colors, typography, and components.",
-  "homepage": "https://jorgeolarte.github.io/The-Tribu/system-design",
+  "homepage": "https://design.thetribu.dev",
   "packageManager": "pnpm@10.32.0",
   "scripts": {
     "storybook": "storybook dev -p 6006",
