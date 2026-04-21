@@ -56,7 +56,7 @@ src/
 | Section | Content |
 |---------|---------|
 | **Colors** | Primary palette, Purple/Indigo/Neutral scales, semantic colors, text and border tokens |
-| **Typography** | Font families (SF Pro Rounded, Inter), size scale, weights, line-heights |
+| **Typography** | Font families (Satoshi, Inter), size scale, weights, line-heights |
 | **Spacing** | 4px base scale (space-1 → space-24), border-radius |
 | **Elevation** | 5 accent glow levels, named by use context |
 | **Motion** | Durations, easings, interactive demos, z-index |
